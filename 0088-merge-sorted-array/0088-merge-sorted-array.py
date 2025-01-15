@@ -12,7 +12,7 @@ class Solution:
         # nums1.sort()
 
         nums1.extend(nums2)
-        num1.sort()
+        nums1.sort()
         
 
         
