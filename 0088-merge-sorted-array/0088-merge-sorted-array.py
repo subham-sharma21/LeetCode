@@ -7,9 +7,12 @@ class Solution:
         # nums1 = num
         # nums = list(filter(lambda x: x!=0,num))
         # print(num)
-        for i in range(n):
-            nums1.append(nums2[i])
-        nums1.sort()
+        # for i in range(n):
+        #     nums1.append(nums2[i])
+        # nums1.sort()
+
+        nums1.extend(nums2)
+        num1.sort()
         
 
         
